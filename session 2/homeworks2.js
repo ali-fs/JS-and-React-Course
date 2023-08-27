@@ -72,6 +72,7 @@
 // "(", ")", "{", "}", "[", "]"
 // and check if the brackets are balanced
 // EX:
+// )( is NOT balanced
 // ((())) is balanced
 // ((()) is NOT balanced
 // [{[(){[]}()]}] is balanced
