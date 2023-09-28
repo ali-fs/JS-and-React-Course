@@ -1,5 +1,17 @@
 import { useCallback, useEffect, useMemo, useState, memo } from "react";
 
+// shallow comparison
+// ===
+
+const a = {
+  name: "a",
+  age: 1,
+};
+const b = {
+  name: "a",
+  age: 1,
+};
+
 const List = ({ getList }) => {
   const [items, setItems] = useState([]);
 
